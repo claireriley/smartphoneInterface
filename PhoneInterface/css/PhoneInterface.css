@@ -1,0 +1,146 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+#userInput{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    color: #fff ;
+    position: absolute;
+    width: 84%;
+}
+#backspace{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 235px;
+    margin-top: 40px;
+}
+#input{
+    border-radius: 5px;
+    position: absolute;
+    width: 260px;
+    height: 400px; 
+    margin-left: 5px;
+    margin-top: 55px;
+    background: #403075; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #575D6A, #161E2D  ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #575D6A, #161E2D  ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #575D6A, #161E2D  ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #575D6A, #161E2D  ); /* Standard syntax */
+}
+#backgroundbase{
+    border-radius: 25px;
+    position: relative;
+    width: 270px;
+    height: 510px;    
+    background: #000000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #333333, #000000  ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #333333, #000000  ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #333333, #000000  ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #333333, #000000  ); /* Standard syntax */
+}
+#fakeSpeaker{
+    border-radius: 5px;
+    position: absolute;
+    width: 50px;
+    height: 7px; 
+    background: #333333;
+    left: 120px;
+    top: 23px;
+}
+#fakeCamera{
+    border-radius: 50%;
+    position: absolute;
+    width: 7px;
+    height: 7px; 
+    background: #333333;
+    top: 23px;
+    left: 100px;
+}
+.circle {
+	border: 2px solid #575D6A;
+	border-radius: 50%;
+	opacity: 0.8;
+	width: 50px;
+	height: 50px;
+    border-radius: 50%;
+    font-size: 35px;
+    display:block;
+    color:#ffffff;
+    background: #767C87;
+}
+.circle:active{
+    color:#979AA1;
+    background:#20242D
+}
+.numbers{
+    text-align: center;  
+}
+#num0, #num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9, #numPound, #numStar{
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    zoom: 1;
+    line-height: 50px;
+    margin-top: 10px;
+}
+#numPound{
+    font-size: 43px;
+    font-family: 'Titillium Web', sans-serif;  
+    text-align: center;
+    line-height: 50px; 
+}
+#numStar{
+    font-size: 50px;
+    text-align: center;  
+    vertical-align: middle;
+    line-height: 65px; 
+}
+#numKeys{
+    position: relative;
+    width: 68%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    margin: auto;
+    top:25%;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+#homeButton{
+	border-radius: 50%;
+    width:40px;
+    height:40px;
+    position: relative;
+    display:block;
+    margin:auto;
+    top:24px;
+    border: 2px solid #222222;
+}
+#callButton{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:10px;
+    width: 50px;
+    visibility: visible;
+}
+#dialing{
+    position: absolute;
+    width:260px;
+    height= 400px;
+    margin-left: 5px;
+    margin-top: 255px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    font-size: 23px;
+}
